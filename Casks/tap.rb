@@ -10,13 +10,6 @@ cask "tap" do
   desc "Mac app that lets you run coding agents in parallel"
   homepage "https://conductor.build/"
 
-  livecheck do
-    url "https://cdn.crabnebula.app/update/melty/conductor/darwin-#{arch}/0.0.0"
-    strategy :json do |json|
-      json["version"]
-    end
-  end
-
   app "Conductor.app"
 
   zap trash: [
