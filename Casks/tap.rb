@@ -1,4 +1,4 @@
-cask "conductor" do
+cask "tap" do
   arch arm: "aarch64", intel: "x86_64"
 
   version :latest
