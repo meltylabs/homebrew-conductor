@@ -4,7 +4,7 @@ cask "conductor" do
   version "0.15.3"
   sha256 :no_check
 
-  url "https://cdn.crabnebula.app/download/melty/conductor/latest/Conductor_#{version}_#{arch}.dmg",
+  url "https://cdn.crabnebula.app/download/melty/conductor/latest/platform/dmg-#{arch}",
       verified: "cdn.crabnebula.app/download/melty/conductor/"
   name "Conductor"
   desc "Mac app that lets you run coding agents in parallel"
