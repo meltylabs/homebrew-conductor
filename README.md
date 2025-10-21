@@ -5,7 +5,7 @@ This is the official Homebrew tap for [Conductor](https://conductor.build/), a M
 ## Installation
 
 ```bash
-brew install meltylabs/conductor/conductor
+brew install meltylabs/tap/conductor
 ```
 
 Or install via URL:
