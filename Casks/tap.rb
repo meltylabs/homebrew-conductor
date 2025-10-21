@@ -1,7 +1,7 @@
-cask "conductor" do
+cask "tap" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.15.3"
+  version :latest
   sha256 :no_check
 
   url "https://cdn.crabnebula.app/download/melty/conductor/latest/platform/dmg-#{arch}",
